@@ -1,0 +1,395 @@
+@import url(https://fonts.google.com/share?selection.family=Oswald:wght@500);
+/* colors #5392ca #b4cde4 #d6b7c6 	#ffeeee #2b5d89 #ff0381 */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Oswald,sans-serif;
+}
+/* navbar */
+.title{
+    color: #2b5d89;
+    font-size: 35px;
+    margin: 3em;
+}
+.ninteen{
+    color: #2b5d89 ;
+    opacity: 0.8;
+}
+.fa-virus{
+    color:#ff0381;
+}
+.btn {
+    border-radius: 20px !important;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around !important;
+    flex-wrap: wrap;
+  }
+  .navbar  li {
+margin-left: 1em;
+    margin-right : 1em;
+    color: #738290;
+}
+.navbar  li a {
+    color: #2b5d89 !important;
+}
+.navbar{
+    border-bottom: 1px;
+}
+/* showcase section */
+.header{
+    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png ) !important;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.showtxt{
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    
+}
+
+
+.flex-showtxt {
+    display       : flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 70px;
+    flex-wrap: wrap;
+}
+.corona-header{
+    color: #465675;
+    font-size: 80px;
+    margin: 0%;
+    
+}
+#covid{
+    color: #ff0381;
+}
+#virus{
+    color: #465675;
+}
+
+
+
+.showinfo{
+    color:#465675 !important;
+    /* margin: 20px; */
+}
+.protect {
+    padding: 10px;
+     padding-left: 25px ;
+     padding-right: 25px ;
+    margin: 20px;
+}
+ span.fa-shield-alt{
+    padding-left: 50px;
+    padding-top: 5%;
+}
+
+
+/* section 2 */
+
+ .hr-primary{
+    color: #519adf;
+    width: 5rem;
+ }
+ .description{
+
+    color:#465675 ;
+ }
+ .paragraph{
+    
+     line-height: 1.5em;
+ }
+/* 
+.table-light{
+    border:#e6e7e9 1px solid  ;
+    border-radius:50px ;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+}
+.table-light a {
+    
+    display: flex;
+    justify-content: space-around; 
+    ;
+    text-decoration: none;
+     
+}
+.table-light tr, .table-light th{
+    
+    padding: 20px 10px;
+    border-bottom:1px solid #e6e7e9;
+    
+    
+}
+*/
+.table-title{
+    color: #465675;
+
+}
+.list-group-item a{
+    text-decoration: none !important;
+}
+.fa-long-arrow-alt-right{
+    position: absolute;
+    left: 280px;
+}
+/* section3 */
+
+
+.card img{
+    border-bottom: 5px solid #69aae6 ;
+}
+.card-text{
+    color: #465675 ;
+
+}
+
+
+/* section4 */
+.small-images{
+    position: relative;
+    left: 45%;
+    top: 7%;
+    z-index: 1;
+    
+}
+.fa-exclamation-triangle{
+    font-size: 50px;
+    color: #2f8ce2;
+}
+/* section5 */
+.prevent-title{
+    color: #465675;
+}
+.content{
+    color: #505b65;
+}
+.fa-check-circle{
+    color: rgb(84, 184, 84);
+}
+.steps{
+    color: #465675;
+}
+.wash{
+    /* margin-bottom: 5%; */
+    color: #465675;
+}
+
+/* section 6 teratment */
+.be-carefull{
+    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    /* margin-bottom: 5% !important; */
+}
+.dark-overlay{
+    background-color: #1055bbfb;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    
+    
+
+}
+/* section7 protect */
+.fa-times-circle{
+    position: relative;
+    left: 10%;
+    bottom: 85%;
+    font-size: large;
+    color: rgb(228, 18, 18);
+    z-index: 1 !important;
+}
+.Check-mark.fa-check-circle{
+    position: absolute;
+    left: 80%;
+    bottom: 15%;
+    font-size: large;
+    color: green;
+    z-index: 1 !important;
+    
+}
+/* section7 faq */
+/* btns */
+.first-btn{
+    border: 1px solid #9ca1a7;
+    border-radius: 3px !important;
+    padding: 4% ;
+    color: #63676b;
+    width: 350px;
+    
+}
+.first-btn:hover{
+  border: 2px solid #519adf !important;
+  color: #2f8ce2    ;
+  
+}
+
+
+/* accordions */
+#faq h6{
+    padding: 3%;
+    cursor: pointer;
+}
+ a{
+     text-decoration: none ;
+ }
+ 
+   .accordion-button{
+       color: #465675;
+   }
+   #faq.container{
+       height: 100vh;
+   }
+   
+  
+
+   @media only screen and (min-width: 992px) {
+  
+    #faq{
+        height: 100%;
+        position: relative;
+       
+    }
+    .nested-accordion{
+        position: relative;
+    }
+    @media only screen and (min-width: 600px) {
+        .nested-accordion{
+            right: 5%;position: absolute;float:right; 
+        }
+        #faq{
+            height: 100%;
+           display: flex;
+        }
+    } 
+
+}
+
+   /* #accordionExample1,
+   #accordionExample2,
+   #accordionExample3,
+   #accordionExample4,
+   #accordionExample5,
+   #accordionExample6{
+       position: absolute;
+       float:right;
+       right:5%;
+       margin: top 4.5%;
+
+   } */
+       
+   
+   
+
+/* }
+.fa-minus,
+.fa-plus{
+    padding-left: 95%;
+}
+#accordion1{
+    border: 1px solid #9ca1a7 ;
+    border-radius: 5px
+} */
+
+/* section 8 updates */
+
+.update-title{
+    cursor: pointer;
+    /* -webkit-transition: color 1s !important; */
+    transition: color  !important;
+}
+
+.update-title:hover{
+    color: #2f8ce2 !important;
+}
+
+
+/*footer  */
+.footer{
+    
+    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.footer-content{
+    color: #b2bfe0;
+}
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+    cursor: pointer;
+    
+
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-youtube:hover{
+    color: #519adf;
+}
+.footer-text a{
+    text-decoration: none;
+    color:#b2bfe0 ;
+    cursor: pointer;
+
+}
+
+ .links :hover{
+    color: #4382bd !important;
+}
+.hr-line{
+    width: 80%;
+    color: #b2bfe0 ;
+}
+.copy-right{
+    color: #b2bfe0 ;
+
+}
+.privacy a{
+    text-decoration: none;
+    color:#b2bfe0 ;
+    cursor: pointer;
+
+}
+.privacy a:hover{
+    color: #519adf;
+}
+
+/* scroll to top */
+
+
+.top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0d7de6;
+    color: #ebecee;
+    font-size: 30px;
+    padding: 4px 10px;
+    border-radius: 50%;
+    scroll-behavior: smooth;
+}
+.top:hover{
+    color: #e9ecee;
+
+}
+
